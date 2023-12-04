@@ -1,0 +1,21 @@
+.gridCartPage{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 0.84rem;
+}
+
+.cartPageFont{
+    display: flex;
+    color: var(--color-principal);
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+@media screen and (max-width: 660px){
+    .gridCartPage{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 0.5rem;
+    }
+    
+}
+

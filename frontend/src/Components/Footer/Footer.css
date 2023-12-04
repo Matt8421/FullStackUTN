@@ -1,0 +1,36 @@
+.gridGral{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 2rem;
+    font-size: 0.84rem;
+}
+
+.item1{
+    padding: 10px;
+    color: var(--color-secundario);
+}
+
+.constructor{
+    color: var(--color-acento);
+    margin-bottom: 0.7rem;
+}
+.gapFooter{
+    margin-bottom: 0.35rem;
+}
+@media screen and (max-width: 660px){
+    .gridGral{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+        margin-top: 2rem;
+        font-size: 0.5rem;
+    }
+    
+    .item1{
+        padding: 0.625rem;
+        color: var(--color-secundario);
+    }
+    
+    
+}

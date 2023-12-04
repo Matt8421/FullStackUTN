@@ -1,0 +1,45 @@
+.contenedorCard{
+    border:  rgba(5,5,5,0.18) solid 1px;
+    border-radius: 0.7rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+.tamañoImagen{
+    width: auto; 
+    height: 100px;
+}
+.fondoCard{
+    background-color: var(--color-letra);
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    color: var(--color-secundario);
+}
+.comprarButton:active{
+    filter:contrast(90%);
+}
+.comprarButton:hover{
+    background-color: rgba(133, 151, 179, 0.788);
+}
+.comprarButton{
+    border:  rgba(5,5,5,0.18) solid 1px;
+    border-radius: 0.7rem;
+    background-color: var(--color-principal);
+    padding: 0.25rem;
+    margin-top: 0.5rem;
+    color: var(--color-letra);
+}
+@media screen and (max-width: 660px){
+    .contenedorCard{
+        border:  rgba(5,5,5,0.18) solid 1px;
+        border-radius: 0.7rem;
+        text-align: center;
+    }
+    .tamañoImagen{
+        width: 25vw; 
+        height: 6.25rem;
+        object-fit: contain;
+        background-color: var(--color-blanco);
+    }
+    
+}
